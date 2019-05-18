@@ -1,0 +1,74 @@
+.body {
+  font-family: Calibri, Helvetica, sans-serif;
+  margin: 0;
+}
+.finecooking-logoimg{
+           /* max-width: 20%;*/
+          /*  height: 100%;*/
+			float: center;
+        }
+
+/* Style the header */
+.header {
+	
+  padding: 30px;
+  text-align: center;
+  background: #1abc9c;
+  color: Black;
+}
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+#overlay{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.3);
+}
+#navigation{
+	background-color: rgba(0,0,0,0.3);
+		padding-bottom: 20px;
+	
+}
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: grey;
+  font-size: 20px;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px  20px;
+  text-decoration: none;
+}
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#content h1{
+	text-align: ;
+	
+}
+#heading h1{
+	text-align:center ;
+	Font-size:30px;
+}
+
+
+/* Style the footer*/
+.footer {
+   position:bottom;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: red;
+   text-align: center;
+}
