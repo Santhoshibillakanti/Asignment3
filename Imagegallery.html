@@ -1,77 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <title>Recipepage</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href=".\style.css"/>
-	</head>
+   <head>
+      <title>Recipepage</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href=".\Style.css"/>
+      <!-- Styling the sheet-->
+      <style>
+         div.gallery {
+         margin: 5px;
+         border: 1px solid #ccc;
+         align: center;
+         width: 180px;
+         }
+         div.gallery:hover {
+         border: 1px solid #777;
+         }
+         div.gallery img {
+         width: 100%;
+         height: auto;
+         }
+         div.desc {
+         padding: 15px;
+         text-align: center;
+         }
+         .footer {
+         position:bottom;
+         left: 0;
+         bottom: 0;
+         width: 100%;
+         background-color: black;
+         color: red;
+         text-align: center;
+         }
+         a:link{
+         transition: all, 5s, linear 0;
+         color: #000;
+         }
+         #navigation{
+         padding-bottom: 10px;
+         }
+		 
+         .footer{
+         background-color: grey;
 	
-	<body>
+         }
+		 div.gallery {
 
-<div class="header">
-  <h1>Fine Cooking</h1>
-</div>
-<div class="navbar">
-  <a href="file:///C:/Personal%20Use/CIT%20Assignments/FED%20assignment3/Home.html#">Home</a>
-  <a href="file:///C:/Personal%20Use/CIT%20Assignments/FED%20assignment3/Recipes.html">Recipes</a>
-  <a href="file:///C:/Personal%20Use/CIT%20Assignments/FED%20assignment3/Ingredients.html">Ingredients</a>
-  <a href="file:///C:/Personal%20Use/CIT%20Assignments/FED%20assignment3/Contact%20Us.html">Contact Us</a>
-  <a href="#">Image Gallery</a> 
-</div>
-<style>
-div.gallery {
-  margin: 5px;
+  /*margin: 5px;*/
+
   border: 1px solid #ccc;
-  float: left;
-  width: 180px;
+
+  /*align: center;
+
+  width: 180px;*/
+
+ 
+
+display: block;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+  width: 50%;
+
 }
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-</style>
-</head>
-<body>
-
-<div class="gallery">
-  <a target="_blank" href=".\Images\fresh-herb-salad-wide.jpg">
-    <img src=".\Images\fresh-herb-salad-wide.jpg" alt="Recipe1 image" width="600" height="400">
-  </a>
-  <div class="desc">fresh-herb-salad-wide</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href=".\Images\grilled-salmon_wide.jpg">
-    <img src=".\Images\grilled-salmon_wide.jpg" alt="recipe2  Image" width="600" height="400">
-  </a>
-  <div class="desc">grilled-salmon_wide</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href=".\Images\blistered-green-beans-wide.jpg">
-    <img src=".\Images\blistered-green-beans-wide.jpg" alt="Recipe4 image" width="600" height="400">
-  </a>
-  <div class="desc">blistered-green-beans-wide</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href=".\Images\strawberry-blitz-torte_wide.jpg">
-    <img src=".\Images\strawberry-blitz-torte_wide.jpg" alt="Recipe3 image" width="600" height="400">
-  </a>
-  <div class="desc">strawberry-blitz-torte_wide</div>
-</div>
-
-</body>
+	      </style>
+   </head>
+   <body>
+      <!-- Header and Logo-->
+      <div class="header">
+         <img src=".\Images\Logo-FineCooking.png" alt="Fine Cooking" height="10%" width="10%" >
+         <h1>Fine Cooking</h1>
+      </div>
+      <!-- Navigation bar-->
+      <div class="navbar">
+         <a href="file:Home.html">Home</a>
+         <a href="file:Recipes.html">Recipes</a>
+         <a href="file:Ingredients.html">Ingredients</a>
+         <a href="file:Contact%20Us.html">Contact Us</a>
+         <a href="file:Imagegallery.html">Image Gallery</a> 
+      </div>
+      </head>
+      <!-- Image Gallery-->
+      <div class="gallery">
+         <a target="_blank" href=".\Images\fresh-herb-salad_wide.jpg">
+         <img src=".\Images\fresh-herb-salad-wide.jpg" alt="Recipe1 image" width="600" height="400">
+         </a>
+         <div class="desc">Fresh-herb-salad</div>
+      </div>
+      <div class="gallery">
+         <a target="_blank" href=".\Images\grilled-salmon_wide.jpg">
+         <img src=".\Images\grilled-salmon_wide.jpg" alt="recipe2  Image" width="600" height="400">
+         </a>
+         <div class="desc">Grilled-salmon</div>
+      </div>
+      <div class="gallery">
+         <a target="_blank" href=".\Images\blistered-green-beans_wide.jpg">
+         <img src=".\Images\blistered-green-beans-wide.jpg" alt="Recipe4 image" width="600" height="400">
+         </a>
+         <div class="desc">Blistered-green-beans</div>
+      </div>
+      <div class="gallery">
+         <a target="_blank" href=".\Images\strawberry-blitz-torte_wide.jpg">
+         <img src=".\Images\strawberry-blitz-torte_wide.jpg" alt="Recipe3 image" width="600" height="400">
+         </a>
+         <div class="desc">Strawberry-blitz-torte</div>
+      </div>
+      <!-- Footer-->
+      <div class="footer" style="color: white;" "float:none;" >
+      <p>About us</p>
+      </div>
+   </body>
 </html>

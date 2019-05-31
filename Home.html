@@ -1,75 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <title>Homepage</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href=".\style.css"/>
-	</head>
-	<style>
-	a:link{
-transition: all, 5s, linear 0;
-color: #000ff;
-
-}
-#navigation{
-	
-		padding-bottom: 10px;
-		}
-		.footer{
-	
-		background-color: grey;
-		}
-		
-</style>
-	
-	<body>
-	<header>
-
-	<div class="header">
-	<section id="images">
-	<div>
-		<ul clss="gallery clearfix">
-			<li>	<figure>
-<img src=".\Images\cooking.jpg" alt="Fine Cooking" height="10%" width="10%"> 
-</figure>					
-			</li>
-		</ul>
-</section id="images">
-
-  <h1>Fine Cooking </h1>
-  </header>
-</div>
-<div id="overlay">
-<div id="navigation ">
-<div class="navbar" padding-bottom: 0px;>
-  <a href="file:///C:/Personal%20Use/CIT%20Assignments/FED%20assignment3/Home.html#">Home</a>
-  <a href="file:///C:/Personal%20Use/CIT%20Assignments/FED%20assignment3/Recipes.html">Recipes</a>
-  <a href="file:///C:/Personal%20Use/CIT%20Assignments/FED%20assignment3/Ingredients.html">Ingredients</a>
-  <a href="file:///C:/Personal%20Use/CIT%20Assignments/FED%20assignment3/Contact%20Us.html">Contact Us</a>
-  <a href="file:///C:/Personal%20Use/CIT%20Assignments/FED%20assignment3/Imagegallery.html">Image Gallery</a>
- 
-</div>
-</div>
-</div>
-<section id = "content" >
-
-<h1>For People Who Love to Cook  </h1>
-
-<h2>Find a Recipe</h2>
- <div class="searchbar">
-<input type="text" placeholder="Search..">
- </div>
- <div class = "RecipeList">
- <h1 > Recipes For Memorial Day </h1>
- <p>Blistered Green Beans and Cherry Tomatoes </p>
- <p>Apricot Tabbouleh with Cilantro and Toasted Almonds </p>
- <p>Tamarind Margaritas </p>
- <p>Grilled Chicken and Charred-Onion Tacos</p>
- <div class="footer" style="color: white;"> 
-  <p>About us</p>
-</div>
-</section>
-</body>
+   <head>
+      <title>Homepage</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="./Style.css"/>
+	  <!-- Printable format-->
+	  <link media="print" href="print.css" /
+      <!-- Styling the sheet-->
+      <style>
+         a:link{
+         transition: all, 5s, linear 0;
+         color: #000;
+         }
+         #navigation{
+         padding-bottom: 10px;
+         }
+         .footer{
+         background-color: grey;
+         }
+		    
+      </style>
+      <!-- header and logo-->
+   </head>
+   <body>
+      <header>
+         <div class="header">
+		           
+            <img src=".\Images\cooking.jpg" id= "imageId" alt="Fine Cooking">
+            <h1>Fine Cooking </h1>
+      </header>
+      </div>
+      <!-- navigation bar-->
+      <div class="navbar">
+         <a href="file:Home.html">Home</a>
+         <a href="file:Recipes.html">Recipes</a>
+         <a href="file:Ingredients.html">Ingredients</a>
+         <a href="file:Contact%20Us.html">Contact Us</a>
+         <a href="file:Imagegallery.html">Image Gallery</a>
+      </div>
+      <!-- Content of Home page-->
+      <section id = "content" >
+         <h3>For People Who Love to Cook  </h3>
+         <h3>Find a Recipe</h3>
+         <div class="searchbar">
+            <input type="text" placeholder="Search..">
+         </div>
+         <div class = "RecipeList">
+         <h3 > Recipes For Memorial Day </h3>
+         <p>Blistered Green Beans and Cherry Tomatoes </p>
+         <p>Apricot Tabbouleh with Cilantro and Toasted Almonds </p>
+         <p>Tamarind Margaritas </p>
+         <p>Grilled Chicken and Charred-Onion Tacos</p>
+		 
+         <!-- Footer-->
+         <div class="footer" style="color: white;">
+            <p>About us</p>
+         </div>
+      </section>
+   </body>
 </html>

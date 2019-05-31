@@ -1,35 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <title>Ingredientspage</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href=".\style.css"/>
-	</head>
-	
-	<body>
-
-<div class="header">
-  <h1>Fine Cooking</h1>
-</div>
-<div class="navbar">
-  <a href="file:///C:/Personal%20Use/CIT%20Assignments/FED%20assignment3/Home.html#">Home</a>
-  <a href="file:///C:/Personal%20Use/CIT%20Assignments/FED%20assignment3/Recipes.html">Recipes</a>
-  <a href="file:///C:/Personal%20Use/CIT%20Assignments/FED%20assignment3/Ingredients.html">Ingredients</a>
-  <a href="file:///C:/Personal%20Use/CIT%20Assignments/FED%20assignment3/Contact%20Us.html">Contact Us</a>
-  <a href="file:///C:/Personal%20Use/CIT%20Assignments/FED%20assignment3/Imagegallery.html">Image Gallery</a> 
-</div>
-<h3>Eggplant</h3>
-<p>Though it is treated like a vegetable, eggplant (a member of the nightshade family along with tomatoes and potatoes) is actually a giant berry.</p>
-<h3>Thyme</h3>
-  <p>Native to southern Europe and the Mediterranean area, Thymus vulgaris is a perennial shrub belonging to the Labiatae, or mint, family.</p>
-  <h3>Lemons</h3>
-  <p>A bright yellow citrus fruit, tart lemons brighten both sweet treats and savory dishes.</p>
-  <h3>Russet Potatoes</h3>
-  <p>Russets are long and large with a thick, rough, skin. A high-starch potato, with a flesh that's snowy white and very dry, they are the quintessential baking potato. They also…</p>
-<div class="footer">
-  <p>About us</p>
-</div>
-</body>
+   <head>
+      <title>Ingredientspage</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href=".\Style.css"/>
+      <!-- Styling the sheet-->
+      <style>
+         a:link{
+         transition: all, 5s, linear 0;
+         color: #000;
+         }
+         #navigation{
+         padding-bottom: 10px;
+         }
+         .footer{
+         background-color: grey;
+         }
+         table, th, td {
+         border: 1px solid black;
+         border-collapse: collapse;
+         }
+         th, td {
+         padding: 5px;
+         text-align: left;    
+         }
+      </style>
+   </head>
+   <body>
+      <!-- Header and logo-->
+      <div class="header">
+         <img src=".\Images\Logo-FineCooking.png" alt="Fine Cooking" height="10%" width="10%">
+         <h1>Fine Cooking</h1>
+      </div>
+      <!-- Navigation bar-->
+      <div class="navbar">
+         <a href="file:Home.html">Home</a>
+         <a href="file:Recipes.html">Recipes</a>
+         <a href="file:Ingredients.html">Ingredients</a>
+         <a href="file:Contact%20Us.html">Contact Us</a>
+         <a href="file:Imagegallery.html">Image Gallery</a> 
+      </div>
+      <!-- Content of the Ingredents page-->
+      <section id = "Ingredientscontent">
+         <h3>Ingredients</h3>
+      </section>
+      <!-- Table of ingredients list-->
+      <table style="width:100%">
+         <tr>
+            <th>Ingredient Name</th>
+            <th colspan="2">Description</th>
+         </tr>
+         <tr>
+            <td>Eggplant</td>
+            <td>Though it is treated like a vegetable, eggplant (a member of the nightshade family </br>
+               along with tomatoes and potatoes) is actually a giant berry
+            </td>
+         </tr>
+         <tr>
+            <td>Thyme</td>
+            <td>Native to southern Europe and the Mediterranean area, Thymus vulgaris is a perennial</br>
+               shrub belonging to the Labiatae, or mint, family
+            </td>
+         </tr>
+         <tr>
+            <td>Lemons</td>
+            <td>A bright yellow citrus fruit, tart lemons brighten both sweet treats and savory dishes</br>
+            </td>
+         </tr>
+         <tr>
+            <td>Russet Potatoes</td>
+            <td>Russets are long and large with a thick, rough, skin. A high-starch potato, with a flesh </br>
+               that's snowy white and very dry, they are the quintessential baking potato
+            </td>
+         </tr>
+         <tr>
+            <td>Plum Tomatoes</td>
+            <td>This egg-shaped meaty tomato is usually found red, though it can also be yellow. It's good </br>
+               for cooking and canning because its water content is relatively low, and it yields
+            </td>
+         </tr>
+         <tr>
+            <td>Onions</td>
+            <td>Yellow onions are all-purpose onions. Since they are inexpensive and readily available, they're</br>
+               used more than any other type. They have the strongest flavor of all the globe onions
+            </td>
+         </tr>
+         <tr>
+            <td>Garlic</td>
+            <td>Countless recipes begin with the step of sautéing a little garlic because the cloves of this edible</br>
+               bulb (a member of the lily family) are so very flavorful.
+            </td>
+         </tr>
+      </table>
+      <!-- Footer-->
+      <div class="footer" style="color: white;">
+         <p>About us</p>
+      </div>
+   </body>
 </html>

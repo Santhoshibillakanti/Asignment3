@@ -1,46 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <title>Homepage</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href=".\style.css"/>
-	</head>
-	
-	<body>
-
-<div class="header">
-  <h1>Fine Cooking</h1>
-</div>
-<div class="navbar">
-  <a href="file:///C:/Personal%20Use/CIT%20Assignments/FED%20assignment3/Home.html#">Home</a>
-  <a href="file:///C:/Personal%20Use/CIT%20Assignments/FED%20assignment3/Recipes.html">Recipes</a>
-  <a href="file:///C:/Personal%20Use/CIT%20Assignments/FED%20assignment3/Ingredients.html">Ingredients</a>
-  <a href="file:///C:/Personal%20Use/CIT%20Assignments/FED%20assignment3/Contact%20Us.html">Contact Us</a>
-  <a href="file:///C:/Personal%20Use/CIT%20Assignments/FED%20assignment3/Imagegallery.html">Image Gallery</a> 
-</div>
-<Section id= "heading">
-<h1>Contact Us <h1>
-</section>
-<h4>Name:</h4> <p>Santhoshi</p>	
-<h4>Address:</h4>
-<p>CIT<br>
-   205 Anketell St<br>
-   Greenway ACT 2900<br>
-   Phone: (02) 6207 3676 <br>
-   Email: santhoshi.billakanti@gmail.com</p>
-<h4>International Headquarters:</h4>
-<p>413 Pine Street<br>
-   Suite 500<br>
-   Seattle, WA 98101<br>
-   USA</p>
-<h4>Comments:</h4>
-<p>I love "Fresh Herb Salad" Which is simple and easy to prepare and healthy diet.</p>
-
-<div class="footer">
-  <p>About us</p>
-</div>
-   
-
-		 
+   <head>
+      <title>Recipepage</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href=".\Style.css"/>
+      <!-- Styling the sheet-->
+      <style>
+         a:link{
+         transition: all, 5s, linear 0;
+         color: #000;
+         }
+         #navigation{
+         padding-bottom: 10px;
+         }
+         .footer{
+         background-color: grey;
+         }
+      </style>
+   </head>
+   <body>
+      <!-- Header and logo-->
+      <div class="header">
+         <img src=".\Images\Logo-FineCooking.png" alt="Fine Cooking" height="10%" width="10%">
+         <h1>Fine Cooking</h1>
+      </div>
+      <!-- Navigation bar-->
+      <div class="navbar">
+         <a href="file:Home.html">Home</a>
+         <a href="file:Recipes.html">Recipes</a>
+         <a href="file:Ingredients.html">Ingredients</a>
+         <a href="file:Contact%20Us.html">Contact Us</a>
+         <a href="file:Imagegallery.html">Image Gallery</a> 
+      </div>
+     <section id = "Contactuspagecontent">
+         <h3>Contact Us </h3>
+		 </section>
+      <form>
+         Name:<br>
+         <input type="text" name="Name">
+         <br>
+         Email:<br>
+         <input type="text" name="Email"><br>
+         <p>Message:</p>
+      </form>
+      <form action="/action_page.php">
+      <textarea name="message" rows="20" cols="120"></textarea>
+      <br><br>
+      <input type="submit" value="Submit">
+	  <div id = "contactuscontent">
+      <p><b>Name: </b>Santhoshi</p>
+      <h4>Address:</h4>
+      <p>CIT<br>
+         205 Anketell St<br>
+         Greenway ACT 2900<br>
+         Phone: (02) 6207 3676 <br>
+         Email: santhoshi.billakanti@gmail.com
+      </p>
+      <h4>International Headquarters:</h4>
+      <p>413 Pine Street<br>
+         Suite 500<br>
+         Seattle, WA 98101<br>
+         USA
+      </p>
+	        <h4>Comments:</h4>
+      <p>I love "Fresh Herb Salad" Which is simple and easy to prepare and healthy diet.</p>
+	  </div>
+      <!-- footer-->
+      <div class="footer" style="color: white;">
+         <p>About us</p>
+      </div>
