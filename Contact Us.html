@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
-      <title>Recipepage</title>
+      <title>contactuspage</title>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" type="text/css" href=".\Style.css"/>
@@ -22,8 +22,8 @@
    <body>
       <!-- Header and logo-->
       <div class="header">
-         <img src=".\Images\Logo-FineCooking.png" alt="Fine Cooking" height="10%" width="10%">
-         <h1>Fine Cooking</h1>
+         <img src=".\Images\Logo-FineCooking.png" id= "imageId" alt="Fine Cooking">
+         <h2>Fine Cooking</h2>
       </div>
       <!-- Navigation bar-->
       <div class="navbar">
@@ -36,18 +36,56 @@
      <section id = "Contactuspagecontent">
          <h3>Contact Us </h3>
 		 </section>
-      <form>
-         Name:<br>
-         <input type="text" name="Name">
-         <br>
-         Email:<br>
-         <input type="text" name="Email"><br>
-         <p>Message:</p>
-      </form>
-      <form action="/action_page.php">
-      <textarea name="message" rows="20" cols="120"></textarea>
-      <br><br>
-      <input type="submit" value="Submit">
+		 <div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="name" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Address</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="Address" placeholder="Your address..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="Pname">Phone</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="Pname" name="phone" placeholder="Your phone number...">
+    </div>
+    
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="Ename">Email</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="Ename" name="Email" placeholder="Your Email..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Comments</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+</div>
+
+      
 	  <div id = "contactuscontent">
       <p><b>Name: </b>Santhoshi</p>
       <h4>Address:</h4>
@@ -64,7 +102,20 @@
          USA
       </p>
 	        <h4>Comments:</h4>
+			
       <p>I love "Fresh Herb Salad" Which is simple and easy to prepare and healthy diet.</p>
+	  
+	  <h4>Book and Magazine Sales</h4>
+<!-- Using lists-->
+<!--<ul style="list-style-type:none;">-->
+ <ul>
+  <li>Trade Sales, Magazines: 866-505-4674</li>
+  <li>Trade Sales, Books and Videos: 866-505-4689</li>
+  <li>The Taunton Trade Co., Inc.
+63 South Main Street, PO Box 5563
+Newtown, CT 06470-5563
+Fax: 203-270-9373</li>
+</ul>  
 	  </div>
       <!-- footer-->
       <div class="footer" style="color: white;">
